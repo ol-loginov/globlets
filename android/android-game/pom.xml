@@ -9,11 +9,12 @@
     <name>globlets android game</name>
 
     <properties>
-        <project.java.version>1.6</project.java.version>
+        <project.java.source.version>1.6</project.java.source.version>
+        <project.java.class.version>1.6</project.java.class.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
         <platform.version>2.3.3</platform.version>
-        <android.sdk.platform>17</android.sdk.platform>
+        <android.sdk.platform>16</android.sdk.platform>
         <android.sdk.path>${user.home}/local/android-sdk</android.sdk.path>
     </properties>
 
@@ -32,8 +33,8 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>2.3.2</version>
                 <configuration>
-                    <target>${project.java.version}</target>
-                    <source>${project.java.version}</source>
+                    <target>${project.java.class.version}</target>
+                    <source>${project.java.source.version}</source>
                     <debug>true</debug>
                 </configuration>
             </plugin>
