@@ -3,12 +3,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.bloglets</groupId>
-    <artifactId>globlets-android-game</artifactId>
+    <groupId>com.globlets</groupId>
+    <artifactId>source-android-game</artifactId>
     <version>0.1</version>
     <packaging>apk</packaging>
 
-    <name>globlets android game</name>
+    <name>android game</name>
 
     <properties>
         <project.java.source.version>1.6</project.java.source.version>

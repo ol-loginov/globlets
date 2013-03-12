@@ -1,0 +1,55 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.globlets</groupId>
+    <artifactId>source-desktop-game</artifactId>
+    <version>1.0</version>
+    <packaging>jar</packaging>
+
+    <name>desktop game</name>
+
+    <properties>
+        <project.java.source.version>1.6</project.java.source.version>
+        <project.java.class.version>1.6</project.java.class.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <build>
+        <plugins>
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>2.3.2</version>
+                <configuration>
+                    <target>${project.java.class.version}</target>
+                    <source>${project.java.source.version}</source>
+                    <debug>true</debug>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.globlets</groupId>
+            <artifactId>source-java</artifactId>
+            <version>1.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>libgdx</groupId>
+            <artifactId>gdx-natives</artifactId>
+            <version>0.9.8</version>
+        </dependency>
+        <dependency>
+            <groupId>libgdx</groupId>
+            <artifactId>gdx-backend-lwjgl-natives</artifactId>
+            <version>0.9.8</version>
+        </dependency>
+        <dependency>
+            <groupId>libgdx</groupId>
+            <artifactId>gdx-backend-lwjgl</artifactId>
+            <version>0.9.8</version>
+        </dependency>
+    </dependencies>
+</project>
