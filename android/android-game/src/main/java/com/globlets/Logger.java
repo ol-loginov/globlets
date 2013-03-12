@@ -18,10 +18,18 @@ public class Logger {
     }
 
     public void enter(String method) {
-        info(tagName, method + " enter");
+        info(tagName, "::" + method + " enter");
+    }
+
+    public void touch(String method) {
+        info(tagName, "::" + method + " touch");
     }
 
     public void leave(String method) {
-        info(tagName, method + " leave");
+        info(tagName, "::" + method + " leave");
+    }
+
+    public void info(String message) {
+        info(tagName, message);
     }
 }
