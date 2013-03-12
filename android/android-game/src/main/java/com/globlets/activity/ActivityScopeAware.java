@@ -1,4 +1,4 @@
-package com.globlets;
+package com.globlets.activity;
 
 import android.app.Activity;
 import android.os.Bundle;

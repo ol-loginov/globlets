@@ -1,11 +1,10 @@
-package com.globlets;
+package com.globlets.activity;
 
 import android.content.Intent;
 import android.view.View;
+import com.globlets.R;
 
 public class WelcomeScreenActivity extends ActivityScopeAware {
-    public static final Logger logger = Logger.forClass(WelcomeScreenActivity.class);
-
     @Override
     protected void createView() {
         setContentView(R.layout.welcome);

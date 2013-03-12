@@ -1,8 +1,9 @@
-package com.globlets;
+package com.globlets.activity;
 
 import android.content.Context;
 import android.opengl.GLSurfaceView;
 import android.opengl.GLU;
+import com.globlets.Logger;
 
 import javax.microedition.khronos.egl.EGLConfig;
 import javax.microedition.khronos.opengles.GL10;
